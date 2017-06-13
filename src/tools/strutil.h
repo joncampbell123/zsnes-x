@@ -26,6 +26,9 @@ This is part of a toolkit used to assist in ZSNES development
 #include <vector>
 #include <cctype>
 
+#include <strings.h>
+#include <stdlib.h>
+
 struct ci_char_traits : public std::char_traits<char>
 {
   static bool eq(char c1, char c2) { return tolower(c1) == tolower(c2); }

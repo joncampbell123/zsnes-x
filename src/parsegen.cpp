@@ -33,6 +33,8 @@ Config file handler creator by Nach (C) 2005-2007
 #include <stack>
 using namespace std;
 
+#include <string.h>
+#include <stdlib.h>
 #include <errno.h>
 #include <zlib.h>
 
